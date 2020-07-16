@@ -1,0 +1,479 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body    {
+    font-family: 'Poppins';
+   background: #04000E;
+   
+}
+
+main    {
+     background-image: url('/assets/images/Group\ 85.png');
+    background-position: 0% 30%;
+     background-repeat: no-repeat; 
+     background-size: 300px 100px contain;
+     
+   
+}
+#small-screen-logo  {
+    display: none;
+}
+
+
+/* Countdown Timer */
+
+#inner-text {
+    border: 12px solid #27FFDA;
+    border-radius: 50%;
+    line-height: 17px;
+    text-align: center;
+    position: relative;
+    font-weight: 500;
+    color:  #BFF6EC;
+    padding-top: 10px;
+    height: 100px;
+    width: 100px;
+    font-size: 14px;
+}
+
+
+#hero-section   {
+   background-image: url('/assets/images/illus.png');
+   background-repeat: no-repeat;
+   background-position: 100% 0%;
+   background-size: 40% 75%;
+   
+}
+#app-details    {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 500;
+    color: #137060;
+}
+#details-span    {
+    color: #37C0C0;
+}
+#access-btn {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    background: #BFF6EC;
+    width: 284px;
+    height: 70px;
+    border: 1px solid #BFF6EC;
+    border-radius: 10px;
+}
+
+#howitwork-header   {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #BFF6EC;
+}
+#line-header    {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #37C0C0;
+}
+#line-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    color: #37C0C0;
+}
+
+/* Screenshot-section */
+#screenshot-section {
+    margin-top: 24rem;
+    
+}
+#screenshot-header  {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #BFF6EC;
+}
+
+
+/* Lightbox */
+
+.preview {
+    width: 100%;
+  }
+
+  
+  /* Ligtbox modal code. */
+     
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding: 10px 62px 0px 62px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 0 0 0 0;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  
+  .slide {
+    display: none;
+  }
+  
+  .image-slide {
+    width: 100%;
+  }
+  
+  .modal-preview {
+    width: 100%;
+  }
+  
+  .dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Transparent modal preview.
+   */
+  
+  img.preview, img.modal-preview {
+    opacity: 0.6;
+  }
+  
+  img.active,
+  .preview:hover,
+  .modal-preview:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  } 
+  
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .previous,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .previous:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+/* Lightbox */
+
+
+/* Other features section */
+#other-features-header  {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    color: #BFF6EC;
+}
+#features-sub-header    {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    color:  #37C0C0;
+}
+#features-paragraph {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #37C0C0;
+}
+
+/* Contact us section */
+#contact-us-section {
+    height: 514px;
+    /* width: 100vw; */
+    margin: 0;
+    background-image: url('/assets/images/anastase-maragos-fG0p4Qh_aWI-unsplash.png');
+    background-position: center;
+     background-repeat: no-repeat; 
+    background-size: cover;
+}
+#contact-us-paragraph   {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #BFF6EC;
+
+}
+i   {
+    font-size: 30px;
+    position: absolute;
+  top: 3.3rem;
+   left: 2.5rem;
+    color: #BFF6EC;
+    
+}
+#mail-input   {
+    color: #BFF6EC;
+   font-size: 24px;
+   font-weight: 500;
+   background: none;
+    border-top: none; border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    padding-left: 64px;
+    line-height: 100px;
+    position: relative;
+}
+input::placeholder   {
+    color: #BFF6EC;
+    font-size: 24px;
+   font-weight: 500;
+    
+}
+#contact-us-btn {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    background: #BFF6EC;
+    width: 284px;
+    height: 70px;
+    border: 1px solid #BFF6EC;
+    border-radius: 10px;
+
+   
+}
+#footer-section {
+    background: #04000E;
+    /* width: 100vw; */
+}
+#footer-paragraph   {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #BFF6EC;
+}
+#footer-span    {
+    font-weight: 700;
+    color: #1B9C86;
+}
+
+
+
+/* Media Queries */
+@media(max-width: 800px)    {
+    #big-screen-logo  {
+        display: none;
+    }
+    #small-screen-logo  {
+        display: block;
+    }
+    main    {
+        background-image: url('/assets/images/smallbg.png');
+       background-position: 48% 17%;
+        background-repeat: no-repeat; 
+        background-size: 300px 100px contain;
+        
+      
+   }
+
+    #hero-section   {
+        background-image: url('/assets/images/small-illu.png');
+        background-repeat: no-repeat;
+        background-position: 100% 0%;
+        background-size: 38% 80%;
+     }
+    
+    /* Countdown Timer */
+    
+    #inner-text {
+        padding-top: 5px;
+        padding-bottom: 2px;
+        line-height: 1px;
+        font-size: 5px;
+       border: 3px solid #27FFDA;
+        height: 34px;
+        width: 34px;
+    }
+    
+    
+    #howitwork-section   {
+        /* width: 100vw;
+        height: 40rem;
+        */
+    }
+    #app-details    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #access-btn {
+        font-size: 12px;
+        width: 152px;
+        height: 40px;
+    }
+
+
+    #howitwork-header   {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #line-header    {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #line-paragraph {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    /* Screenshot-section */
+    #screenshot-section {
+        margin-top: 5rem;
+        
+    }
+    #screenshot-header  {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    /* Other features section */
+#other-features-header  {
+    font-size: 25px;
+    line-height: 30px;
+}
+#features-sub-header    {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+#features-paragraph {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+
+/* Contact us section */
+#contact-us-section {
+    height: 200px;
+    /* width: 100vw; */
+    margin: 0;
+    background-image: url('/assets/images/anastase-maragos-fG0p4Qh_aWI-unsplash.png');
+    background-position: center;
+     background-repeat: no-repeat; 
+    background-size: cover;
+}
+#contact-us-paragraph   {
+    font-size: 10px;
+    line-height: 16px;
+}
+i   {
+    font-size: 1rem;
+   top: 0.8rem;
+   left: 1.2rem;
+   
+    
+}
+#mail-input   {
+    padding-bottom: 5px;
+    padding-left: 30px;
+    line-height: 30px;
+    position: relative;
+    font-size: 10px;
+}
+input::placeholder   {
+    color: #BFF6EC;
+   
+    font-size: 11px;
+   
+    
+}
+#contact-us-btn {
+    font-size: 12px;
+        width: 152px;
+        height: 40px;
+}
+#footer-section {
+    background: #04000E;
+    /* width: 100vw; */
+}
+#footer-paragraph   {
+    font-size: 10px;
+    line-height: 15px;
+   
+}
+    
+}
+
+
+@media(min-width: 1200px)   {
+    main    {
+        background-image: url('/assets/images/smallbg.png');
+       background-position: 48% 17%;
+        background-repeat: no-repeat; 
+        background-size: 300px 100px ;
+        
+        
+      
+   }
+   #small-screen-logo  {
+       display: none;
+   }
+   
+   
+   
+   #hero-section   {
+      background-image: url('/assets/images/illus.png');
+      background-repeat: no-repeat;
+      background-position: 100% 0%;
+      background-size: 40% 75%;
+      
+   }
+}

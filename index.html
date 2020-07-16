@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitMe App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://kit.fontawesome.com/74091f2b8e.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Google Font link -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800' rel='stylesheet'>
+
+    <!-- Lightbox cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js">   
+
+ <!-- Aos cdn -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <!-- Top Section -->
+    
+
+
+     <!-- Main Section -->
+     <main>
+         <!-- top section -->
+        <section class="row" id="hero-section">
+            <!-- <div class="row col-12 justify-content-between ml-2 ml-md-5" > -->
+                <div class="col-12 ml-2 ml-md-5">
+                     <div class="mt-5 mt-md-3 mb-1 mb-md-5">
+                        <img id="big-screen-logo" class="img-fluid ml-1 ml-md-3 my-4 my-md-5" src="/assets/images/logo.png" alt="logo">
+                        <img class="mt-4 ml-2" id="small-screen-logo" src="/assets/images/smalllogo.png" alt="">
+                    </div>
+
+
+                <div class="col-8 col-md-5">
+                     <p class="mt-4 mt-md-5" id="app-details"><span id="details-span">Scan</span> and get routines on less focused <span id="details-span">body parts</span> after a workout session.</p> </div>
+
+
+                <div class="row col-12 justify-content-between my-0 my-md-5" style="border: 1px solid white;" >
+                         <div class="col-5 col-xl-6">
+                             <a href="#mail-box"><button id="access-btn">Get early access</button></a>
+                         </div>
+
+                          <!-- Countdown Timer -->
+                           <div class="row col-6 col-md-5  mt-0 mr-3 mr-lg-5 mr-xl-2  justify-content-around" id="counter" style="border: 1px solid white;" >
+                            <div class="col-2" id="timer-box">
+                            <div id="inner-text">
+                                 <p class="days"></p>
+                            <p>DAYS</p>
+                            </div>
+                           
+                            </div>
+                            <div class="col-2" id="timer-box">
+                            <div id="inner-text">
+                                 <p class="hours"></p>
+                            <p>HOURS</p>
+                            </div>
+                           
+                            </div>
+                            <div class="col-2" id="timer-box">
+                            <div id="inner-text">
+                                <p class="minutes"></p>
+                            <p>MINS</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-2" id="timer-box">
+                            <div id="inner-text">
+                                 <p class="seconds"></p>
+                            <p>SECS</p>
+                            </div>
+                           
+                        </div>
+                       
+                    </div>
+                        
+                </div>
+               
+          
+
+          
+                <!-- <div class="col-5 col-md-7  mr-0" >
+                    <img id="illustration" class="img-responsive" src="/assets/images/Group 84.png" alt=""> -->
+               
+            </div>
+          
+        </section>
+        
+        <!-- How it works Section -->
+        <section class="row my-2 my-md-5 ml-1 ml-md-5" id="howitwork-section">
+            <div class="row col-12 justify-content-between">
+                <div class="col-12 col-md-6 my-3 my-md-5">
+                    <h2 id="howitwork-header">How it <u>works</u></h2>
+                </div>
+                   
+            </div>
+            <div class="row col-12" data-aos="slide-left"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="5000">
+                <div class="col-4 col-md-2" >
+                    <img class="img-fluid d-block" src="/assets/images/Group 86 (1).png" alt="">
+                </div>
+                <div class="col-5 col-md-2 align-items-center my-auto">
+                    <h5 id="line-header" class="text-left mt-2 mt-md-5 mb-2 mb-md-3">Scan after Workout</h5>
+                    <p class="text-left" id="line-paragraph">Scan you body after a workout session  and let FIT ME give you a breakdown of parts with less focus to enhance on</p>
+
+                    
+                </div>
+
+            </div>
+            <br>
+            <div class="row col-12 justify-content-end my-5" data-aos="slide-right">
+                <div class="col-5 col-md-3 align-items-center my-auto">
+                    <h5 id="line-header" class="text-right mt-2 mt-md-5 mb-2 mb-md-3 align-items-center">Priotity on less focused body</h5>
+                    <p class="text-right" id="line-paragraph">Scan you body after a workout session  and let FIT ME give you  a breakdown of parts with less focus to enhance on</p>
+                </div>
+                <div class="col-4 col-md-2">
+                    <img class="img-fluid d-block" src="/assets/images/Group 87 (1).png" alt="">
+                </div>
+            </div>
+            <br>
+
+            <div class="row col-12 mb-5" data-aos="zoom-out-down">
+                <div class="col-4 col-md-2">
+                    <img class="img-fluid d-block" src="/assets/images/Group 88.png" alt="">
+                </div>
+                <div class="col-5 col-md-4 align-items-center my-auto">
+                    <h5 id="line-header" class="text-left mt-2 mt-md-5 mb-2 mb-md-3">Workout routine to enhance areas</h5>
+                    <p class="text-left" id="line-paragraph">Scan you body after a workout <br> session and let FIT ME give you <br> a breakdown of parts with less <br> focus to enhance on</p>
+                </div>
+
+            </div>
+        </section>
+        <br>
+        <div class="row col-12 w-100"></div>
+
+
+        <!-- Screenshot Section -->
+        <section class="row " data-aos="zoom-in-down" id="screenshot-section">
+            <div class="col-12">
+                <h4 class="text-center" id="screenshot-header">App Screens<u>hots</u></h4>
+            </div>
+
+
+            <!-- lightbox modal -->
+            <div id="img-container" class="row col-12 justify-content-center my-3">
+                <div id="img-div" class="col-7 col-md-3">
+                    <img class="img-fluid" src="/assets/images/User Profile (1).svg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" alt="User">
+                </div>
+                <div id="img-div" class="col-7 col-md-3">
+                    <img class="img-fluid" src="/assets/images/Timeline (2).svg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="User">
+                </div>
+                <div id="img-div" class="col-7 col-md-3">
+                    <img class="img-fluid" src="/assets/images/Onboard (1).png" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="User">
+                </div>
+            </div>
+
+
+
+            <div id="Lightbox" class="modal">
+                <span class="close pointer" onclick="closeLightbox()">&times;</span>
+  <div class="modal-content">
+    <div class="slide">
+        <img src="/assets/images/User Profile (1).svg" class="image-slide" alt="user." />
+    </div>
+    <div class="slide">
+        <img src="/assets/images/Timeline (2).svg" class="image-slide" alt="timeline." />
+    </div>    
+    <div class="slide">
+        <img src="/assets/images/Onboard (1).png" class="image-slide" alt="onboard." />
+    </div>
+        </div>
+    <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    <div class="dots">
+        <div class="col">
+          <img src="/assets/images/User Profile (1).svg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="user" />
+        </div>
+        <div class="col">
+          <img src="/assets/images/Timeline (2).svg
+          " class="modal-preview hover-shadow" onclick="toSlide(2)" alt="timeline." />
+        </div>
+        <div class="col">
+          <img src="/assets/images/Onboard (1).png" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="onboard." />
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+        </section>
+
+
+        <!-- Other features section -->
+        <section class="row mb-3">
+            <div class="col-12">
+                <h2 class="text-center my-3" id="other-features-header">Other Fe<u>atures</u></h2>
+            </div>
+
+            <div class="row col-12 col-md-10 justify-content-center mx-auto">
+                <!-- Left side container -->
+                <div class="col-12 col-md-5 ml-auto" data-aos="slide-right" >
+                    <div class="col-12 my-2 my-md-5 ">
+                        <h5  id="features-sub-header">Body Scan</h5>
+                    <p id="features-paragraph">Get a full body scan after each <br> workout session to know what <br> areas have less focus lately.</p>
+                    </div>
+                    <div class="col-12 col-md-10 my-5">
+                        <h5 id="features-sub-header">Workout Routines</h5>
+                    <p id="features-paragraph">Suggested workout routines to help <br> achieve the perfect body you’ve <br> always desired.</p>
+                    </div>
+                    <div class="col-12 col-md-10 my-5">
+                        <h5 id="features-sub-header">Daily Challenges</h5>
+                    <p id="features-paragraph">Get daily challenge workouts to <br> help you fitness journey become <br> better in a short while.</p>
+                    </div>
+                </div>
+
+                <!-- Right side container -->
+                <div class="col-12 col-md-5" data-aos="slide-left">
+                    <div class="col-12 col-md-10 my-5">
+                        <h5 id="features-sub-header">Live Workout Sessions</h5>
+                    <p id="features-paragraph">Watch or join live workout sessions <br> with our well-trained coaches and <br> get your body goal.</p>
+                    </div>
+                    <div class="col-12 col-md-10 my-5">
+                        <h5 id="features-sub-header">Meal Plans</h5>
+                    <p id="features-paragraph">Get daily or weekly meal plans to <br> help you keep fit and stay fit as you <br> workout.</p>
+                    </div>
+                    <div class="col-12 col-md-10 my-5">
+                        <h5 id="features-sub-header">Activity Tracker</h5>
+                    <p id="features-paragraph">Track your workout sessions <br> and see your daily, wekly and monthly <br> progress.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Contact-us-section -->
+    <section class="row" id="contact-us-section">
+        <div class="col-12 align-items-center my-auto ml-1 ml-md-5">
+            <div class="col-11 col-md-9 ml-1 ml-md-4">
+                <p class="text-white ml-0 ml-md-4" id="contact-us-paragraph">We'll be here soon with our new awesome app, subscribe to be notified.</p>
+            </div>
+            
+            <form class="row col-12 col-md-6 input-group ml-0 ml-md-2 mt-2 mt-md-5  w-100 justify-content-center" action="/assets/fitme.php" method="POST" id="mail-box" >
+
+                <i class="fa fa-envelope-o"></i><input id="mail-input" class="form-control mt-2 mt-md-5" type="text" name="email" placeholder="Enter your email here"><br>
+          <div class="input-group-append">
+           <button id="contact-us-btn" name="submit" class="ml-1 ml-md-2 mt-0 mt-md-4" id="send">Get early access</button>
+          </div>
+       </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="row py-2" id="footer-section">
+        <div class="col-12 mt-auto">
+            <p class="text-white text-center" id="footer-paragraph">All rights reserved. <span id="footer-span">Fit me</span></p>
+        </div>
+    </footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
