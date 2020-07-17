@@ -6,6 +6,7 @@
 body    {
     font-family: 'Poppins';
    background: #04000E;
+   overflow-x: hidden;
    
 }
 
@@ -280,6 +281,21 @@ input::placeholder   {
    font-weight: 500;
     
 }
+::-webkit-input-placeholder {
+    color: #BFF6EC !important;
+  }
+  
+  :-ms-input-placeholder {
+    color: #BFF6EC !important;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #BFF6EC !important;
+  }
+  
+  ::placeholder {
+    color: #BFF6EC !important;
+  }
 #contact-us-btn {
     font-size: 24px;
     font-weight: 700;
@@ -423,9 +439,9 @@ i   {
     
 }
 #mail-input   {
-    padding-bottom: 8px;
+    padding-bottom: 1px;
     padding-left: 30px;
-    line-height: 30px;
+    line-height: 40px;
     position: relative;
     font-size: 10px;
 }
