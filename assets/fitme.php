@@ -16,7 +16,7 @@ if (isset ($_POST['submit'])){
         echo "<script>
         alert('successfully subscribed');
 
-        window.location.pathname=''
+        window.location.pathname='/'
         </script>";
     }
 
