@@ -15,13 +15,10 @@ main    {
     background-position: 50% 38%;
      background-repeat: no-repeat; 
      background-size: 300px 100px contain;
-     
-   
 }
 #small-screen-logo  {
     display: none;
 }
-
 
 /* Countdown Timer */
 
@@ -66,6 +63,12 @@ main    {
     height: 70px;
     border: 1px solid #BFF6EC;
     border-radius: 10px;
+    transition: transform .3s;
+}
+#access-btn:hover {
+    background: #098C8C;
+    transform: scale(1.1);
+    
 }
 
 #howitwork-header   {
@@ -305,7 +308,13 @@ input::placeholder   {
     height: 70px;
     border: 1px solid #BFF6EC;
     border-radius: 10px;
-
+    transition: transform .3s;
+}
+#contact-us-btn:hover {
+    background: #098C8C;
+    transform: scale(1.1);
+    
+}
    
 }
 #footer-section {
