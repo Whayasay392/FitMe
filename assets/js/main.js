@@ -14,7 +14,7 @@ let myHour = document.querySelector('.hours')
 let myMin = document.querySelector('.minutes')
 let mySec = document.querySelector('.seconds')
 
- var countDownDate = new Date("May 18, 2020 10:00:00").getTime();
+ var countDownDate = new Date("May 18, 2021 10:00:00").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
 
